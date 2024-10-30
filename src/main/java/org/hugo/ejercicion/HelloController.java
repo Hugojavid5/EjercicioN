@@ -1,14 +1,9 @@
 package org.hugo.ejercicion;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+/*
+    Clase HelloController
+ */
 
 public class HelloController {
-    @FXML
-    private Label welcomeText;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
 }
