@@ -23,6 +23,7 @@ public class AppComponente extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AppComponente.class.getResource("EjercicioN.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 650, 450);
+        stage.setResizable(false);
         stage.setTitle("EjercicioN");
         stage.setScene(scene);
         stage.show();
